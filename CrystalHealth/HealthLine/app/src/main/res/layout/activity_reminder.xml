@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reminder">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="410dp"
+        android:layout_height="163dp"
+        android:background="@drawable/textbook2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView89">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView88"
+                android:layout_width="84dp"
+                android:layout_height="76dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginBottom="42dp"
+                android:foregroundGravity="center"
+                app:srcCompat="@drawable/profile_user" />
+
+            <TextView
+                android:id="@+id/b7"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="116dp"
+                android:layout_marginEnd="9dp"
+                android:layout_marginRight="9dp"
+                android:background="@drawable/backg2"
+                android:fontFamily="@font/inknut_antiqua_medium"
+                android:gravity="center"
+                android:text="Consult"
+                android:textColor="#0C0C0C"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="128dp"
+                android:layout_marginLeft="128dp"
+                android:layout_marginTop="26dp"
+                android:fontFamily="@font/inknut_antiqua_medium"
+                android:text="Patient Name:"
+                android:textColor="#00BCD4"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="133dp"
+                android:layout_marginLeft="133dp"
+                android:layout_marginTop="71dp"
+                android:text=""
+                android:textColor="#0B0A0A"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="254dp"
+                android:layout_marginLeft="254dp"
+                android:layout_marginTop="36dp"
+                android:text=""
+                android:textColor="#0B0A0A"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="94dp"
+                android:fontFamily="@font/inknut_antiqua_medium"
+                android:text="10/11/2023"
+                android:textColor="#00BCD4"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView83"
+        android:layout_width="525dp"
+        android:layout_height="802dp"
+
+        android:background="@drawable/outline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943"
+        app:srcCompat="@drawable/gradient" />
+
+    <ImageView
+        android:id="@+id/imageView77"
+        android:layout_width="81dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/hp2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/left_arrow" />
+
+    <ImageView
+        android:id="@+id/imageView84"
+        android:layout_width="421dp"
+        android:layout_height="365dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="228dp"
+        android:alpha="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/caduceus" />
+
+    <ImageView
+        android:id="@+id/lotus16"
+        android:layout_width="242dp"
+        android:layout_height="229dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="208dp"
+        android:alpha="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lotus__1_" />
+
+    <ImageView
+        android:id="@+id/imageView89"
+        android:layout_width="491dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:rotationX="-4"
+        android:rotationY="-8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/undraw_confirmpage_re_69me" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="77dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/inknut_antiqua_medium"
+        android:rotationY="-20"
+        android:text="Confirmed"
+        android:textColor="#191818"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView89" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
