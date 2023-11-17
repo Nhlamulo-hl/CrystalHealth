@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorReminder">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="410dp"
+        android:layout_height="163dp"
+        android:background="@drawable/textbook2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView36">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="332dp"
+                android:layout_marginLeft="332dp"
+                android:layout_marginTop="78dp"
+                android:fontFamily="@font/inknut_antiqua_medium"
+                android:text="Accepted"
+                android:textColor="#E91E63"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView88"
+                android:layout_width="84dp"
+                android:layout_height="76dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginBottom="42dp"
+                android:foregroundGravity="center"
+                app:srcCompat="@drawable/profile_user" />
+
+            <TextView
+                android:id="@+id/b7"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="116dp"
+                android:layout_marginEnd="9dp"
+                android:layout_marginRight="9dp"
+                android:background="@drawable/backg2"
+                android:fontFamily="@font/inknut_antiqua_medium"
+                android:gravity="center"
+                android:text="Consult"
+                android:textColor="#0C0C0C"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="128dp"
+                android:layout_marginLeft="128dp"
+                android:layout_marginTop="26dp"
+                android:fontFamily="@font/inknut_antiqua_medium"
+                android:text="Patient Name:"
+                android:textColor="#00BCD4"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="133dp"
+                android:layout_marginLeft="133dp"
+                android:layout_marginTop="71dp"
+                android:text=""
+                android:textColor="#0B0A0A" />
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="254dp"
+                android:layout_marginLeft="254dp"
+                android:layout_marginTop="36dp"
+                android:text=""
+                android:textColor="#0B0A0A"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="134dp"
+                android:layout_marginLeft="134dp"
+                android:layout_marginTop="94dp"
+                android:fontFamily="@font/inknut_antiqua_medium"
+                android:text="10:00 at 10/11/2023"
+                android:textColor="#00BCD4"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="287dp"
+                android:layout_marginLeft="287dp"
+                android:layout_marginTop="79dp"
+                android:fontFamily="@font/inknut_antiqua_medium"
+                android:text="Status:"
+                android:textColor="#0B0A0A"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView70"
+        android:layout_width="525dp"
+        android:layout_height="802dp"
+
+        android:background="@drawable/outline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985"
+        app:srcCompat="@drawable/gradient" />
+
+    <ImageView
+        android:id="@+id/imageView76"
+        android:layout_width="81dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/hp2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/left_arrow" />
+
+    <ImageView
+        android:id="@+id/imageView71"
+        android:layout_width="421dp"
+        android:layout_height="365dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="228dp"
+        android:alpha="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/caduceus" />
+
+    <ImageView
+        android:id="@+id/lotus11"
+        android:layout_width="242dp"
+        android:layout_height="229dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="208dp"
+        android:alpha="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lotus__1_" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="400dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="16dp"
+        android:rotationY="-12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/undraw_reminders_re_gtyb" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

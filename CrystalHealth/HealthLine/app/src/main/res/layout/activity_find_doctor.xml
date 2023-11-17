@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".FindDoctor">
+
+        <ImageView
+            android:id="@+id/imageView63"
+            android:layout_width="444dp"
+            android:layout_height="761dp"
+
+            android:background="@drawable/outline"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.571"
+            app:srcCompat="@drawable/gradient" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="81dp"
+            android:layout_height="64dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/hp2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.036"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/left_arrow" />
+
+        <ImageView
+            android:id="@+id/imageView64"
+            android:layout_width="421dp"
+            android:layout_height="365dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="248dp"
+            android:alpha="0.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/caduceus" />
+
+        <ImageView
+            android:id="@+id/lotus7"
+            android:layout_width="242dp"
+            android:layout_height="229dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginBottom="188dp"
+            android:alpha="0.5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/lotus__1_" />
+
+        <ImageView
+            android:id="@+id/imageView65"
+            android:layout_width="276dp"
+            android:layout_height="196dp"
+            android:alpha="0.9"
+            android:rotationY="-4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/undraw_medicine_b_1_ol" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="153dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="20dp"
+            android:alpha="0.9"
+            android:fontFamily="@font/inknut_antiqua_medium"
+            android:rotationY="12"
+            android:text="Find A Doctor"
+            android:textColor="#070707"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView65"
+            app:layout_constraintEnd_toEndOf="@+id/imageView65"
+            app:layout_constraintHorizontal_bias="0.756"
+            app:layout_constraintStart_toStartOf="@+id/imageView65" />
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="409dp"
+            android:layout_height="409dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView65"
+            tools:listitem="@layout/medi" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
